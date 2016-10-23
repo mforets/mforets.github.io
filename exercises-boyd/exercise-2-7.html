@@ -519,7 +519,10 @@ pre.line-numbers > code {
 
 <p>Let \(a\) and \(b\) be distinct points in \(\R^n\). Show that the set of all points that are closer in Euclidean norm to \(a\) than \(b\) is a halfspace. Describe it explicitly as an inequality of the form \(c^T x \leq d\). Draw a picture.</p>
 
-<p><strong>Solution</strong>. (MF) Let \(V_a = \{ x \in \R^n : ||x-a||_2 \leq ||x-b||_2 \}\). The set \(V_a\) is corresponds to all points that are closer to \(a\) than to \(b\). Expanding
+<p><details> 
+  <summary><strong>Solution</strong>. (MF)</summary></p>
+
+<p>Let \(V_a = \{ x \in \R^n : ||x-a||_2 \leq ||x-b||_2 \}\). The set \(V_a\) is corresponds to all points that are closer to \(a\) than to \(b\). Expanding
 \[
 \scalar{x-a}{x-a} \leq \scalar{x-b}{x-b},
 \]
@@ -552,6 +555,8 @@ drawing.show()</code></pre></div>
 <p>The plot shows that the set \(V_a\) defined above corresponds to the region in yellow, closer to the point \(a\) (in red) than \(b\) (in blue).</p>
 
 <p><img src="voronoi-two-points.png" width="450" height="450"/></p>
+
+<p></details></p>
 
 
 
