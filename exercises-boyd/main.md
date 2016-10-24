@@ -21,10 +21,14 @@
 
 If you would like to contribute with an exercise please [send me an email](marcelo-forets.fr) and I will upload it here. Otherwise you can directly do it yourself, you just need a [github](https://github.com/) account (it is free). 
 
+To actually create new content, you can do it in any text editor and save the file in .md ([Markdown](https://en.wikipedia.org/wiki/Markdown)) format. There exist as well several programs specially conceived to formatting in Markdown. On a personal note, my favorite (for MacOS) is the open-source project [MacDown](macdown.uranusjr.com/). 
+
+If you prefer to work online, check [stack edit](https://stackedit.io).
+
 ## References:
 
 [1] Convex optimization. Boyd and Vandenberghe. 
 
-[2] Additional exercies for Convex Optimization. Boyd and Vandenberghe. Aug' 2016.
+[2] [Additional exercies for Convex Optimization.](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook_extra_exercises.pdf) Boyd and Vandenberghe. Aug' 2016.
 
 
