@@ -2,7 +2,7 @@
 
 | Exercise #  |    Main topics        | Source  |
 |:-----:|:---------:|:----:|
-| [2.1](exercise-2-7.html) | definition of convex set  | [1] |
+| [2.7](exercise-2-7.html) | definition of convex set  | [1] |
 | [1.1](exercise-1-1-ad.html) |  definition of convex set | [2] |
 
 ## Chapter résumé
