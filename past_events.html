@@ -1,0 +1,16 @@
+---
+layout: default
+title: Past events
+---
+
+<!-- we can also use class="posts" -->
+
+<ul class="blog-index">
+{% for post in site.posts %}
+    {% if post.categories contains 'past_event' %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+    <div class="entry-content">{{ post.content | strip_html | truncatewords:20}}</div>
+    </li>
+    {% endif %}
+{% endfor %}
+</ul>

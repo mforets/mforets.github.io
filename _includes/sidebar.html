@@ -1,0 +1,87 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>{{ site.description }}</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+
+      <!-- Create custom navigation bar items -->
+
+<!-- HABILITAR cuando tenga pronto la parte de PROJECTS
+
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/projects">Current projects</a>
+-->
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/pr_publications">Publications</a>
+
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/drafts"> Preprints &amp; Reports </a>
+
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/upcoming_events.html">Events: upcoming</a>
+
+       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/past_events.html">Events: past</a>
+
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/reading_group"> Reading group </a>
+
+      <!--
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/teaching">Teching</a>
+      -->
+
+<!-- (HABILITAR CUANDO TENGA PRONTO EL BLOG)
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/blog">Blog</a>
+-->
+
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/collabo"> Collaborators </a>
+
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/about">About</a>
+
+
+
+    {% comment %}
+      The code below dynamically generates a sidebar nav of pages with
+      `layout: page` in the front-matter. See readme for usage.
+    {% endcomment %}
+
+      <!-- That is OK, but the sort option is bizarre (by url name). Since it doesn't change too much, above we include these manually. Note that we can include both HTML and markdown files. -->
+
+<!--
+    {% assign pages_list = site.pages | sort:"url" %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "page" %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    -->
+
+
+      <!--
+    <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Projects </a>
+    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub projects</a>
+-->
+
+      <!--
+    <span class="sidebar-nav-item">Last updated {{ site.time }}</span>
+    -->
+
+    </nav>
+
+  <div class="sidebar-item">
+
+      <!--
+      <p>
+      &copy; {{ site.time | date: '%Y' }}.
+    </p>
+  -->
+
+      <p>
+      &copy; Last updated {{ site.time }}.
+      </p>
+
+    </div>
+</div>

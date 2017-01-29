@@ -1,104 +1,41 @@
-<html>
-<HEAD>
-<TITLE>Marcelo Forets: Home Page</TITLE>
-<STYLE TYPE="text/css">
-<!--
-.indented
-   {
-   padding-left: 12pt;
-   padding-right: 0pt;
-   }
--->
-</STYLE>
-</HEAD>
+---
+layout: default
+title: Home
+---
 
-<BODY>
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
 
-<TABLE>
+    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-<TBODY>
+    <!-- originally it was post.content in double curly braces.
+    use the trick below to display only a fragment of the post (e.g. first 100 words with truncatewords:100)
+    -->
+    {{ post.content | strip_html | truncatewords:20 }}  
+  </div>
+  {% endfor %}
+</div>
 
-<tr>
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="/">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
 
-<td rowspan=2>
-<img border="1" src="files/photo.jpg" alt="Marcelo Forets" height="180">
-</td>
-
-<td rowspan=2 width=20>
-</td>
-
-<td valign=top>
-<FONT SIZE="+2"><b>
-Marcelo Forets</b></FONT><br>
-(2016-) Post-doc researcher at TEMPO team led by <a href="http://www-verimag.imag.fr/~maler/" target="_blank">Oded Maler</a>. <br>    
-
-<a href="http://www-verimag.imag.fr/" target="_blank">VERIMAG</a>,
-<a href="http://www.univ-grenoble-alpes.fr/" target="_blank">Universite Grenoble Alpes</a><br>
-<br>
-My Post-doc mentor is <a href="http://sites.google.com/site/frehseg/" target="_blank"> Goran Frehse. </a><br>    
-    
-</td>
-
-<td rowspan=2 width=40>
-</td>
-
-<td valign=top>
-<a href="http://www-verimag.imag.fr/" target="_blank"><img border="0" src="files/VERIMAG.png"  height="60"
-alt="VERIMAG"></a>
-</td>
-    <td valign=top>
-<a href="http://www.univ-grenoble-alpes.fr/" target="_blank"><img border="0" src="files/UGA.png"  height="60"
-alt="VERIMAG"></a>
-</td>
-</tr>
-
-<tr>
-<td valign=bottom>
-<b>Office:</b> 209 IMAG Building<br>
-<b>Address:</b> Bat. IMAG, 700 Av. Centrale, 38041,
-       	France.<br>
-<b>Tel:</b> +33 (0)6 47 91 43 65
-<b>Email:</b> marcelo dot forets at imag dot fr
-</td>
-
-</tr>
-
-</TBODY>
-
-</TABLE>
-
-<hr>
-
-<p>Topics of current research activity include:</p>
-
-<ul>
-	<li>Nonlinear dynamical systems, control and modeling.</li>
-	<li>Algorithmic verification and safety properties of cyber-physical systems. Hybrid systems. Reachability analysis under uncertainty.</li>
-	<li> Polynomial optimization and the generalized moments problem. </li>
-</ul>
-
-    <hr>
-
-    I hold a PhD in Mathematics and Informatics from UGA (Dec' 2015). My PhD advisors were <a href="http://pageperso.lif.univ-mrs.fr/~pablo.arrighi/" target="_blank"> Pablo Arrighi </a> and <a href="http://www-fourier.ujf-grenoble.fr/~joye/" target="_blank"> Alain Joye. </a>
-<p> The topics of <a href="http://theses.fr/2015GREAM028" target="_blank"> my PhD thesis include </a> : </p>
-   <ul>
-    <li> Quantum walks and quantum cellular automata. </li>
-    <li>Quantum simulation of physical systems. The Dirac equation.</li>
-    <li>  Spectral analysis of unitary operators. </li>
-</ul>
-
-<hr>
-    
-
-<p>Elsewhere:</p>
-
-<ul>
-	<li><a href="https://github.com/mforets" target="_blank"><img border="0" src="files/github_logo.png"  height="40"
-alt="Github">Github</a></li>
-	<li><a href="https://ask.sagemath.org/users/8657/mforets/" target="_blank"><img border="0" src="files/sagemath_logo.jpeg"  height="40"
-alt="SageMath">SageMath</a></li>
-</ul>
-
-    <hr>
-    
-</body></html>

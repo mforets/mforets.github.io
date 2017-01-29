@@ -1,0 +1,21 @@
+this is some example code that was in past_events.html
+we had to remove it from there because otherwise it was being read (apparently the comments did not work)
+
+<!-- example: to include the latest post. to-do: include all posts with tag past_event -->
+
+<!--
+<div class="blog-index">  
+  {% assign post = site.posts.first %}
+  {% assign content = post.content %}
+    
+  <h1 class="entry-title">
+{% if page.title %}
+    <a href="{{ root_url }}{{ page.url }}">{{ page.title }}</a>
+{% endif %}
+{% if post.title %}
+    <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+{% endif %}
+</h1>
+<div class="entry-content">{{ content }}</div>
+</div>
+-->
