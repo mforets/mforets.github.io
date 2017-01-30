@@ -23,7 +23,6 @@ The main topics of my PhD thesis are:
 
 <!--
 
-> Ok, ok.. but what is the thesis all about?
 
 ## In a few words...
 

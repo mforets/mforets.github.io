@@ -31,8 +31,8 @@ In this place I keep track of past and present scientific collaborators. It it r
 
 | Name   |      Affiliation    |
 |:----------|:-------------:|
-| [Sergiy Bogomolov](www.sergiybogomolov.com/) | Australian National University, Australia.|    
-| [Thao Dang](www-verimag.imag.fr/PEOPLE/Thao.Dang/) | VERIMAG, Univ. Grenoble Alpes, France.|
+| [Sergiy Bogomolov](http://www.sergiybogomolov.com/) | Australian National University, Australia.|    
+| [Thao Dang](http://www-verimag.imag.fr/PEOPLE/Thao.Dang/) | VERIMAG, Univ. Grenoble Alpes, France.|
 | [Goran Frehse](https://sites.google.com/site/frehseg/) | VERIMAG, Univ. Grenoble Alpes, France. |    
 | [Eric Fanchon](http://membres-timc.imag.fr/Eric.Fanchon/) | TIMC-IMAG Lab., Fac. de Médecine, Grenoble, France.|
 | Nikolaos Kekatos | VERIMAG, Univ. Grenoble Alpes, France. |   

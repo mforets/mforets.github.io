@@ -6,7 +6,7 @@ categories: past_event
 tags: control
 ---
 
-The week of 23-26 January I followed an outstanding course *Partial Differential Equation Methods in Control*, given by Prof. [Eduardo Cerpa](ecerpa.mat.utfsm.cl/), from the Mathematics Department of Universidad Técnica
+The week of 23-26 January I followed an outstanding course *Partial Differential Equation Methods in Control*, given by Prof. [Eduardo Cerpa](http://ecerpa.mat.utfsm.cl/), from the Mathematics Department of Universidad Técnica
 Federico Santa María (Valparaíso, Chile). Sessions took place at [GIPSA](http://www.gipsa-lab.grenoble-inp.fr/le-laboratoire/presentation.php)-lab.
 
 
