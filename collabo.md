@@ -11,7 +11,6 @@ In this place I keep track of past and present scientific collaborators. It it r
 **Keywords:** quantum walks, quantum cellular automata, discrete quantum mechanics, numerical analysis, spectral theory.
 
 
-
 | Name   |      Affiliation | 
 |:-----|:-----:|
 | [Gonzalo Abal](https://sites.google.com/site/gonzaloabal/)  | [LES](http://les.edu.uy/) (Salto), UdelaR, Uruguay. |
