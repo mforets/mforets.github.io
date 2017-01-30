@@ -14,6 +14,7 @@ In this place I keep track of past and present scientific collaborators. It it r
 
 | Name   |      Affiliation | 
 |:-----|:-----:|
+| [Gonzalo Abal](https://sites.google.com/site/gonzaloabal/)  | [LES](http://les.edu.uy/) (Salto), UdelaR, Uruguay. |
 | [Pablo Arrighi](http://pageperso.lif.univ-mrs.fr/~pablo.arrighi/)  | Laboratoire d'Informatique Fondamentale (LIF), CaNa team, AMU, France. |
 | Raul Donangelo | Instituto de Física (FING), UdelaR, Uruguay. |   
 | Stefano Facchini | Laboratoire d'Informatique de Marseille (LIF), AMU, France. |
