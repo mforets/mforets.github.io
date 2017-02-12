@@ -3,7 +3,7 @@ layout: page
 title: "Collaborators"
 ---
 
-In this place I keep track of past and present scientific collaborators. It it roughly separated into topics (though there are overlaps), and inside each table, the ordering is alphabetical. In some cases the data (affiliations) may be outdated.
+Here I keep track of past and present scientific collaborators. It it roughly separated into topics (though there are overlaps), and inside each table, the ordering is alphabetical. In some cases the data (affiliations) may be outdated.
       
       
 ### Quantum computation
