@@ -26,7 +26,7 @@ title: "Outreach"
 
 ### Physics Olympiads
 
-Served in the organizing committee of [Olimpiadas de Fisica del Uruguay](http://olimp-fisica.blogspot.fr/) (OFU) in the period 2009-2015. I helped in the preparation and proof-reading of the questions, and in some organizational tasks. Among several people that are involved in the OFU, in this period I had a great time collaborating with [Martín Monteiro](fisicamartin.blogspot.com/) (Universidad ORT Uruguay, [Arturo Martí](www.fisica.edu.uy/~marti/) (Instituto de Física, UdelaR) and [Andrea Cabot](https://twitter.com/andreacabot) (Inspección de Física at [CETP](https://inspeccionfisica.jimdo.com/contacto/), and [IPA](http://ipa.cfe.edu.uy/)).
+Served in the organizing committee of [Olimpiadas de Fisica del Uruguay](http://olimp-fisica.blogspot.fr/) (OFU) in the period 2009-2015. I helped in the preparation and proof-reading of the questions, and in some organizational tasks. Among several people that are involved in the OFU, in this period I had a great time collaborating with [Martín Monteiro](http://fisicamartin.blogspot.com/) (Universidad ORT Uruguay, [Arturo Martí](http://www.fisica.edu.uy/~marti/) (Instituto de Física, UdelaR) and [Andrea Cabot](https://twitter.com/andreacabot) (Inspección de Física at [CETP](https://inspeccionfisica.jimdo.com/contacto/), and [IPA](http://ipa.cfe.edu.uy/)).
 
 Served as Delegate Member of the Uruguayan's team for the [XVII Iberoamerican Physics Olympiads](https://es.wikipedia.org/wiki/Olimpiada_Iberoamericana_de_F%C3%ADsica), held in Granada, Spain (2012).
 
