@@ -17,7 +17,7 @@ Hi! My name is Marcelo Forets, I am Uruguayan, and I made my undergraduate studi
 
 I hold a PhD in Mathematics and Informatics from UGA (Dec' 2015). My PhD advisors were [Pablo Arrighi](http://pageperso.lif.univ-mrs.fr/~pablo.arrighi/) (Professor at Laboratoire d'Informatique Fondamentale, Aix-Marseille Université) and [Alain Joye](https://www-fourier.ujf-grenoble.fr/~joye/) (Professor at Institut Fourier, Université Grenoble Alpes). 
 
-Currently, I work as a post-doc researcher at TEMPO team led by [Oded Maler](http://www-verimag.imag.fr/~maler/) (CNRS Researcher at VERIMAG, Univ. Grenoble Alpes). It is located at [VERIMAG](http://www-verimag.imag.fr/) laboratory, from [Universite Grenoble Alpes](http://www.univ-grenoble-alpes.fr/) (Grenoble, France). My post-doc is directed by [Goran Frehse](https://sites.google.com/site/frehseg/) (MdC at VERIMAG, Univ. Grenoble Alpes).
+Currently, I work as a post-doc researcher at TEMPO team led by [Oded Maler](http://www-verimag.imag.fr/~maler/) (CNRS Researcher at VERIMAG, Univ. Grenoble Alpes). It is located at [VERIMAG](http://www-verimag.imag.fr/) laboratory, from [Universite Grenoble Alpes](http://www.univ-grenoble-alpes.fr/) (Grenoble, France). My post-doc is directed by [Goran Frehse](http://www.sites.google.com/site/frehseg/) (MdC at VERIMAG, Univ. Grenoble Alpes).
 
 
 ### Topics of current research activity
@@ -52,7 +52,7 @@ Currently, I work as a post-doc researcher at TEMPO team led by [Oded Maler](htt
 <!-- to justify each paragraph, we can use kramdown's option: {: .text-justify} 
 but there is a simple way using modifying our css class, since it applies by default to all posts. see lanyon.css -->
 
-* Built in [Jekyll](http://jekyllrb.com)
+* Built with [Jekyll](http://jekyllrb.com).
 * Using the [Lanyon](http://lanyon.getpoole.com) template.
 * Powered by [GitHub](https://github.com) pages.
 
