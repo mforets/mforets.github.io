@@ -38,9 +38,11 @@ Here I keep track of past and present scientific collaborators. It it roughly se
 | Nikolaos Kekatos | [VERIMAG](http://www-verimag.imag.fr/), Univ. Grenoble Alpes, France. |   
 | [Victor Magron](http://www-verimag.imag.fr/PEOPLE/Victor.Magron/) | [CNRS](www.cnrs.fr/) and [VERIMAG](http://www-verimag.imag.fr/), Univ. Grenoble Alpes, France.| 
 | [Stefano Minopoli](http://www-verimag.imag.fr/~minopoli/) | ALES/United Technologies Research Center, Rome, Italy. |
+| [Andreas Podelski](https://swt.informatik.uni-freiburg.de/staff/podelski) | [Software Engineering Team](https://swt.informatik.uni-freiburg.de/staff), University of Freiburg, Germany. |
 | [Amaury Pouly](https://www.pouly.fr/) | [Max-Planck Institute for Software Systems](https://www.mpi-sws.org/), Saarbrücken, Germany. |
 | [Alexandre Rocca](http://www-verimag.imag.fr/~rocca/) | [VERIMAG](http://www-verimag.imag.fr/), Univ. Grenoble Alpes, France.|
-| [Christian Schilling](https://swt.informatik.uni-freiburg.de/staff/christian_schilling) | [Software Engineering Team](https://swt.informatik.uni-freiburg.de/staff), University of Freiburg, Germany. | 
+| [Christian Schilling](https://swt.informatik.uni-freiburg.de/staff/christian_schilling) | [Software Engineering Team](https://swt.informatik.uni-freiburg.de/staff), University of Freiburg, Germany. |
+| [Frédéric Viry](https://github.com/viryfrederic) | [ENSIMAG](http://ensimag.grenoble-inp.fr/), Univ. Grenoble Alpes, France. | 
 
 
 
