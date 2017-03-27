@@ -1,34 +1,52 @@
 ---
 layout: page
-title: Submitted Papers & Technical Reports
+title: "Preprints & Reports"
 ---
 
-This section contains work that has either have been submitted for publication in a regular journal or a conferences, or technical research reports. 
+## Working papers
 
-## Hybrid Systems and Formal Verification
-
-
-**Keywords:** compositional methods, reachability analysis, SpaceEx, nonlinear control systems. 
+Preliminary work which has not been yet submitted for publication.
 
 <ol reversed>
 <hr>
+
+<li> <i> Semidefinite Characterization of Invariant Measures for  Polynomial Systems </i><br> M. F., Didier Henrion, Victor Magron. <br> 2017, work-in-progress.  
+<br>  
+<hr>
+</li>
+
+<li> <i> Error Bounds for Carleman Linearization </i><br> M. F., Amaury Pouly.<br> 2017, work-in-progress.  
+<br>  
+<hr>
+</li>
 
 <li> <i> Decomposing Reachability Computations for Affine Systems </i><br> Sergiy Bogomolov, M. F., Goran Frehse, Andreas Podelski, Christian Schilling, Frédéric Viry.<br>  2017, work-in-progress.  
 <br>  
 <hr>
 </li>
 
-<li> <i> Modeling the Wind Turbine Benchmark with PWA Hybrid
-Automata </i><br> Nikolaos Kekatos, M. F., Goran Frehse. <br>  2017, submitted.
+</ol>
+
+## Submitted papers
+
+Papers which have been submitted for review.
+
+<ol reversed>
+<hr>
+
+  <li> <i>Constructing Verification Models of Nonlinear Simulink Systems via Syntactic Hybridization </i><br> Nikolaos Kekatos, M. F., Goran Frehse.<br>  2016, submitted. <a href="https://hal.archives-ouvertes.fr/hal-01487658"> Get pdf from HAL</a>, or download <a href="{{site.url}}/assets/papers/synlin_v2.pdf"> a local copy. </a>
 <br>  
 <hr>
 </li>
 
-  <li> <i>Formal Verification of Nonlinear Simulink Models
-via Syntactic Hybridization </i><br> Nikolaos Kekatos, M. F., Goran Frehse.<br>  2016, submitted. <a href="https://hal.archives-ouvertes.fr/hal-01487658"> Get latest version from HAL</a>, or download <a href="{{site.url}}/assets/papers/synlin.pdf"> a local copy. </a>
-<br>  
+</ol>
+
+## Technical reports
+
+Technical reports on the progess of research projects. They are not meant to be published in journals or conferences.
+
+<ol reversed>
 <hr>
-</li>
 
 <li> <i> Compositional Analysis of Circuits with Parametric Uncertainties</i><br> M. F., Goran Frehse, Nikolaos Kekatos.<br> December 2016. Technical deliverable report of the project NANO2017.<br>
 <hr>
