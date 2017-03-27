@@ -7,39 +7,19 @@ title: "Preprints & Reports"
 
 Preliminary work which has not been yet submitted for publication.
 
-<ol reversed>
-<hr>
+1. *Decomposing Reachability Computations for Affine Systems.* <br> Sergiy Bogomolov, M. F., Goran Frehse, Andreas Podelski, Christian Schilling, Frédéric Viry.<br>  2017, work-in-progress.
 
-<li> <i> Semidefinite Characterization of Invariant Measures for  Polynomial Systems </i><br> M. F., Didier Henrion, Victor Magron. <br> 2017, work-in-progress.  
-<br>  
-<hr>
-</li>
+2. *Error Bounds for Carleman Linearization.* <br> M. F., Amaury Pouly. <br> 2017, work-in-progress.
 
-<li> <i> Error Bounds for Carleman Linearization </i><br> M. F., Amaury Pouly.<br> 2017, work-in-progress.  
-<br>  
-<hr>
-</li>
+3. *Semidefinite Characterization of Invariant Measures for  Polynomial Systems*. <br> M. F., Didier Henrion, Victor Magron. <br> 2017, work-in-progress.
 
-<li> <i> Decomposing Reachability Computations for Affine Systems </i><br> Sergiy Bogomolov, M. F., Goran Frehse, Andreas Podelski, Christian Schilling, Frédéric Viry.<br>  2017, work-in-progress.  
-<br>  
-<hr>
-</li>
 
-</ol>
 
 ## Submitted papers
 
 Papers which have been submitted for review.
 
-<ol reversed>
-<hr>
-
-  <li> <i>Constructing Verification Models of Nonlinear Simulink Systems via Syntactic Hybridization </i><br> Nikolaos Kekatos, M. F., Goran Frehse.<br>  2016, submitted. <a href="https://hal.archives-ouvertes.fr/hal-01487658"> Get pdf from HAL</a>, or download <a href="{{site.url}}/assets/papers/synlin_v2.pdf"> a local copy. </a>
-<br>  
-<hr>
-</li>
-
-</ol>
+1. *Constructing Verification Models of Nonlinear Simulink Systems via Syntactic Hybridization.*  <br> Nikolaos Kekatos, M. F., Goran Frehse.<br>  2016, submitted. [HAL repository](https://hal.archives-ouvertes.fr/hal-01487658), or [download pre-print]({{site.url}}/assets/papers/synlin_v2.pdf) a local copy.
 
 ## Technical reports
 
