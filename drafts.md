@@ -3,23 +3,22 @@ layout: page
 title: "Preprints & Reports"
 ---
 
+## Submitted papers
+
+Papers which have been submitted for review.
+
+1. *Constructing Verification Models of Nonlinear Simulink Systems via Syntactic Hybridization.*  <br> Nikolaos Kekatos, M. F., Goran Frehse.<br>  2016, submitted. <br> Download pre-print: [[HAL]](https://hal.archives-ouvertes.fr/hal-01487658), [[local copy]]({{site.url}}/assets/papers/synlin_v2.pdf).
+
 ## Working papers
 
 Preliminary work which has not been yet submitted for publication.
 
 1. *Decomposing Reachability Computations for Affine Systems.* <br> Sergiy Bogomolov, M. F., Goran Frehse, Andreas Podelski, Christian Schilling, Frédéric Viry.<br>  2017, work-in-progress.
 
-2. *Error Bounds for Carleman Linearization.* <br> M. F., Amaury Pouly. <br> 2017, work-in-progress.
+2. *Explicit Error Bounds for Carleman Linearization.* <br> M. F., Amaury Pouly. <br> 2017, to be submitted. <br> See also: [carlin package](https://github.com/mforets/carlin) for SageMath.
 
 3. *Semidefinite Characterization of Invariant Measures for  Polynomial Systems*. <br> M. F., Didier Henrion, Victor Magron. <br> 2017, work-in-progress.
 
-
-
-## Submitted papers
-
-Papers which have been submitted for review.
-
-1. *Constructing Verification Models of Nonlinear Simulink Systems via Syntactic Hybridization.*  <br> Nikolaos Kekatos, M. F., Goran Frehse.<br>  2016, submitted. [HAL repository](https://hal.archives-ouvertes.fr/hal-01487658), or [download pre-print]({{site.url}}/assets/papers/synlin_v2.pdf) a local copy.
 
 ## Technical reports
 
@@ -36,10 +35,9 @@ Technical reports on the progess of research projects. They are not meant to be 
 <hr>
 </li>
 
-
 </ol>
 
-
+If you are interested to know more about a technical report please send me an email.
 
 <div class="posts">
   {% for post in paginator.posts %}
