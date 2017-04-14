@@ -5,9 +5,38 @@ title: "Collaborators"
 
 Here I keep track of past and present scientific collaborators. It it roughly separated into topics (though there are overlaps), and inside each table, the ordering is alphabetical. In some cases the data (affiliations) may be outdated.
       
-      
-### Quantum computation
 
+### Hybrid Systems and Formal Verification
+
+**Keywords:** hybrid systems, formal verification, cyber-physical systems.
+
+
+| Name   |      Affiliation    |
+|:----------|:-------------:|
+| [Sergiy Bogomolov](http://www.sergiybogomolov.com/) | [College of Engineering and Computer Science](https://cecs.anu.edu.au/), ANU, Australia.|    
+| [Thao Dang](http://www-verimag.imag.fr/PEOPLE/Thao.Dang/) | [VERIMAG](http://www-verimag.imag.fr/), Univ. Grenoble Alpes, France.|
+| [Goran Frehse](https://sites.google.com/site/frehseg/) | [VERIMAG](http://www-verimag.imag.fr/), Univ. Grenoble Alpes, France. |    
+| [Eric Fanchon](http://membres-timc.imag.fr/Eric.Fanchon/) | TIMC-IMAG Lab., Fac. de Médecine, Grenoble, France.|
+| Nikolaos Kekatos | [VERIMAG](http://www-verimag.imag.fr/), Univ. Grenoble Alpes, France. |   
+| [Stefano Minopoli](http://www-verimag.imag.fr/~minopoli/) | ALES/United Technologies Research Center, Rome, Italy. |
+| [Andreas Podelski](https://swt.informatik.uni-freiburg.de/staff/podelski) | [Software Engineering Team](https://swt.informatik.uni-freiburg.de/staff), University of Freiburg, Germany. |
+| [Alexandre Rocca](http://www-verimag.imag.fr/~rocca/) | [VERIMAG](http://www-verimag.imag.fr/), Univ. Grenoble Alpes, France.|
+| [Christian Schilling](https://swt.informatik.uni-freiburg.de/staff/christian_schilling) | [Software Engineering Team](https://swt.informatik.uni-freiburg.de/staff), University of Freiburg, Germany. |
+| [Frédéric Viry](https://github.com/viryfrederic) | [ENSIMAG](http://ensimag.grenoble-inp.fr/), Univ. Grenoble Alpes, France. | 
+
+### Dynamical Systems and Mathematical Optimization 
+
+**Keywords:** control theory, polynomial optimization.
+
+
+| Name   |      Affiliation    |
+|:----------|:-------------:|
+| [Victor Magron](http://www-verimag.imag.fr/PEOPLE/Victor.Magron/) | [CNRS](www.cnrs.fr/) and [VERIMAG](http://www-verimag.imag.fr/), Univ. Grenoble Alpes, France.| 
+| [Amaury Pouly](https://www.pouly.fr/) | [Max-Planck Institute for Software Systems](https://www.mpi-sws.org/), Saarbrücken, Germany. |
+
+
+### Quantum Computation
+	
 **Keywords:** quantum walks, quantum cellular automata, discrete quantum mechanics, numerical analysis, spectral theory.
 
 
@@ -22,27 +51,5 @@ Here I keep track of past and present scientific collaborators. It it roughly se
 | [Armando Pérez](http://ific.uv.es/~perez/) | [Instituto de Fisica Corpuscular (IFIC)](http://webific.ific.uv.es/), UV/CSIC, España.|
 | Ivan Marquez | Aix-Marseille Université and Universitat de Valencia, España. |
 | [Giuseppe Di Molfetta](http://pageperso.lif.univ-mrs.fr/~giuseppe.dimolfetta/) | [Laboratoire d'Informatique Fondamentale (LIF)](http://www.lif.univ-mrs.fr/), AMU, France. |
-
-
-### Hybrid Systems and Formal Verification
-
-**Keywords:** hybrid systems, formal verification, cyber-physical systems, control theory, polynomial optimization.
-
-
-| Name   |      Affiliation    |
-|:----------|:-------------:|
-| [Sergiy Bogomolov](http://www.sergiybogomolov.com/) | [College of Engineering and Computer Science](https://cecs.anu.edu.au/), ANU, Australia.|    
-| [Thao Dang](http://www-verimag.imag.fr/PEOPLE/Thao.Dang/) | [VERIMAG](http://www-verimag.imag.fr/), Univ. Grenoble Alpes, France.|
-| [Goran Frehse](https://sites.google.com/site/frehseg/) | [VERIMAG](http://www-verimag.imag.fr/), Univ. Grenoble Alpes, France. |    
-| [Eric Fanchon](http://membres-timc.imag.fr/Eric.Fanchon/) | TIMC-IMAG Lab., Fac. de Médecine, Grenoble, France.|
-| Nikolaos Kekatos | [VERIMAG](http://www-verimag.imag.fr/), Univ. Grenoble Alpes, France. |   
-| [Victor Magron](http://www-verimag.imag.fr/PEOPLE/Victor.Magron/) | [CNRS](www.cnrs.fr/) and [VERIMAG](http://www-verimag.imag.fr/), Univ. Grenoble Alpes, France.| 
-| [Stefano Minopoli](http://www-verimag.imag.fr/~minopoli/) | ALES/United Technologies Research Center, Rome, Italy. |
-| [Andreas Podelski](https://swt.informatik.uni-freiburg.de/staff/podelski) | [Software Engineering Team](https://swt.informatik.uni-freiburg.de/staff), University of Freiburg, Germany. |
-| [Amaury Pouly](https://www.pouly.fr/) | [Max-Planck Institute for Software Systems](https://www.mpi-sws.org/), Saarbrücken, Germany. |
-| [Alexandre Rocca](http://www-verimag.imag.fr/~rocca/) | [VERIMAG](http://www-verimag.imag.fr/), Univ. Grenoble Alpes, France.|
-| [Christian Schilling](https://swt.informatik.uni-freiburg.de/staff/christian_schilling) | [Software Engineering Team](https://swt.informatik.uni-freiburg.de/staff), University of Freiburg, Germany. |
-| [Frédéric Viry](https://github.com/viryfrederic) | [ENSIMAG](http://ensimag.grenoble-inp.fr/), Univ. Grenoble Alpes, France. | 
-
 
 
