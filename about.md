@@ -42,7 +42,7 @@ Currently, I work as a post-doc researcher at TEMPO team led by [Oded Maler](htt
 
 - [AskSage](https://ask.sagemath.org/users/8657/mforets/) 
 
-- [MathStackExchange](http://math.stackexchange.com/)
+- [MathStackExchange](https://math.stackexchange.com/users/331062/marcelo-forets)
 
 - [MathOverflow](http://mathoverflow.net/users/90243/marcelo-forets)
 
