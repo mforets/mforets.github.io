@@ -10,7 +10,7 @@ title:               PhD. Eng. Marcelo Forets
 tagline:             'Researcher in Applied Mathematics'
 description:         'Post-doc researcher at VERIMAG group from Univ. Grenoble Alpes, France.'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://marcelo-forets.fr/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://main.marcelo-forets.fr/" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username:  mforets
 
