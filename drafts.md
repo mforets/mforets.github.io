@@ -19,6 +19,8 @@ Preliminary work which has not been yet submitted for publication.
 
 3. *Semidefinite Characterization of Invariant Measures for  Polynomial Systems*. <br> M. F., Didier Henrion, Victor Magron. <br> 2017, work-in-progress.
 
+4. *Erythropoiesis and Hemoglobin production modelling using optimal control of Hybrid Systems*. <br> Alexandre Rocca, Thao Dang, Eric Fanchon, M. F., Victor Magron. <br> 2017, work-in-progress.
+
 
 ## Technical reports
 
