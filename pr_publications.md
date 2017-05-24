@@ -11,7 +11,7 @@ This section contains publications at peer-reviewed journals or conference proce
 
 
 1. *Modeling the Wind Turbine Benchmark with PWA Hybrid
-Automata.* <br> Nikolaos Kekatos, M. F., Goran Frehse. <br> To appear in [Applied Verification for Continuous and Hybrid Systems](http://cps-vo.org/group/ARCH), 2017 Edition. <br> Download pre-print: [[HAL]](https://hal.archives-ouvertes.fr/hal-01508674) <br> **Keywords:** reachability analysis, compositional methods, nonlinear control systems, SpaceEx.
+Automata.* <br> Nikolaos Kekatos, M. F., Goran Frehse. <br> In [Applied Verification for Continuous and Hybrid Systems](http://cps-vo.org/group/ARCH), 2017 Edition. <br> Download pre-print: [[HAL]](https://hal.archives-ouvertes.fr/hal-01508674) <br> **Keywords:** reachability analysis, compositional methods, nonlinear control systems, SpaceEx.
 
 ---
 
