@@ -3,10 +3,16 @@ layout: page
 title: "Collaborators"
 ---
 
-Here I keep track of past and present scientific collaborators. It it roughly separated into topics (though there are overlaps), and inside each table, the ordering is alphabetical. In some cases the data (affiliations) may be outdated.
-      
+Here I keep track of people with whom I coauthor scientific papers, past or ongoing. It is organized into these topics (though there are overlaps):
 
-### Hybrid Systems and Formal Verification
+
+- [Hybrid Systems and Formal Verification](#hybrid)
+- [Dynamical Systems and Mathematical Optimization](#optimization)
+- [Quantum Computation](#quantum)
+
+In each table, the ordering is alphabetical. I apologize if there are outdated entries (e.g. affiliations).      
+
+### <a name="hybrid"></a> Hybrid Systems and Formal Verification 
 
 **Keywords:** hybrid systems, formal verification, cyber-physical systems.
 
@@ -24,18 +30,19 @@ Here I keep track of past and present scientific collaborators. It it roughly se
 | [Christian Schilling](https://swt.informatik.uni-freiburg.de/staff/christian_schilling) | [Software Engineering Team](https://swt.informatik.uni-freiburg.de/staff), University of Freiburg, Germany. |
 | [Frédéric Viry](https://github.com/viryfrederic) | [ENSIMAG](http://ensimag.grenoble-inp.fr/), Univ. Grenoble Alpes, France. | 
 
-### Dynamical Systems and Mathematical Optimization 
+### <a name="optimization"></a> Dynamical Systems and Mathematical Optimization 
 
 **Keywords:** control theory, polynomial optimization.
 
 
 | Name   |      Affiliation    |
 |:----------|:-------------:|
+| [Didier Henrion](https://homepages.laas.fr/henrion/) | LAAS - CNRS - Univ. Toulouse, France| 
 | [Victor Magron](http://www-verimag.imag.fr/PEOPLE/Victor.Magron/) | [CNRS](www.cnrs.fr/) and [VERIMAG](http://www-verimag.imag.fr/), Univ. Grenoble Alpes, France.| 
 | [Amaury Pouly](https://www.pouly.fr/) | [Max-Planck Institute for Software Systems](https://www.mpi-sws.org/), Saarbrücken, Germany. |
 
 
-### Quantum Computation
+### <a name="quantum"></a> Quantum Computation
 	
 **Keywords:** quantum walks, quantum cellular automata, discrete quantum mechanics, numerical analysis, spectral theory.
 
