@@ -6,6 +6,27 @@
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
     <p>{{ site.description }}</p>
+    
+    {% if site.author.contact %}
+    {% assign len = site.author.contact | size %}
+    {% assign current_index = 0 %}
+    <div class="sidebar-personal-info-section">
+      <p> Follow me: 
+      {% for contact in site.author.contact %}
+      {% assign iconname = contact[0] %}
+      {% if contact[0] == 'email' %}
+      {% assign iconname = 'envelope' %}
+      {% endif %}
+      <a href="{{ contact[1] }}">
+        <i class="fa fa-{{ iconname }}" aria-hidden="true"></i>
+      </a>
+      {% assign current_index = current_index | plus: 1 %}
+      {% if current_index != len %}|{% endif %}
+      {% endfor %}
+      </p>
+    </div>
+    {% endif %}
+    
   </div>
 
   <nav class="sidebar-nav">
@@ -18,29 +39,19 @@
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/projects">Current projects</a>
 -->
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/pr_publications">Publications</a>
-
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/drafts"> Preprints &amp; Reports </a>
-
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/upcoming_events.html">Events: upcoming</a>
-
        <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/past_events.html">Events: past</a>
-
-       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/outreach"> Outreach </a>
-      
+       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/outreach"> Outreach </a>      
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/reading_group"> Reading group </a>
-
       <!--
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/teaching">Teching</a>
       -->
-
-<!-- (HABILITAR CUANDO TENGA PRONTO EL BLOG)
+      <!-- (HABILITAR CUANDO TENGA PRONTO EL BLOG)
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/blog">Blog</a>
--->
-
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/collabo"> Collaborators </a>
-      
+      -->
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/collabo"> Collaborators </a>      
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/about">About</a>
-
 
 
     {% comment %}

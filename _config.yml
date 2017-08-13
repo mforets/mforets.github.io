@@ -1,29 +1,37 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-#permalink:           pretty
-
-markdown: kramdown 
-
-# Setup
+# Site Info
 title:               PhD. Eng. Marcelo Forets
 tagline:             'Researcher in Applied Mathematics'
 description:         'Post-doc researcher at VERIMAG group from Univ. Grenoble Alpes, France.'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://marcelo-forets.fr/" # the base hostname & protocol for your site, e.g. http://example.com
 
-github_username:  mforets
-
+# Site Configuration
+gems:
+    - jekyll-paginate
+markdown: kramdown 
 # this is the number of posts that are shown at the same time in the Home page. In general it is used in index.html 
 paginate:            8
+version:             1.0.0
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+#permalink:           pretty
+
 
 # About/contact
+github_username:  mforets
 author:
   name:              marcelo forets
   url:               https://marcelo-forets.fr/
-  email:             marcelo.forets@imag.fr
+  email:             marcelo.forets-irurtia@univ-grenoble-alpes.fr
+  contact:
+    linkedin:  https://www.linkedin.com/in/marcelo-forets-irurtia-7b8238149/
+    github:    https://github.com/mforets
+    gitlab:    https://gitlab.com/mforets
+    facebook:  https://www.facebook.com/marcelo.forets
+    email:     http://www.google.com/recaptcha/mailhide/d?k=01YFZZ3JLUy71TNQftCaGYpA==&c=85E2iFWOo5smBeLRQV4ZaVHFsMlBA_QjzQ4rIo23QIY=
 
-# Custom vars
-version:             1.0.0
-
-gems: [jekyll-paginate]
+# Plugins
+mathjax: true # whether support mathjax
+google_analytics_token: # 'UA-00000000-1' # leave blank if you don't want google analytics
+disqus_short_name: # 'your_short_name' # leave blank if you don't want disqus
