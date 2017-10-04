@@ -7,22 +7,21 @@ title: "Preprints & Reports"
 
 Papers which have been submitted for review.
 
+1. *Decomposing Reachability Computations for Affine Systems.* <br> Sergiy Bogomolov, M. F., Goran Frehse, Andreas Podelski, Christian Schilling, Frédéric Viry.<br>  2017, submitted.
+
+2. *Erythropoiesis and Hemoglobin production modelling using optimal control of Hybrid Systems*. <br> Alexandre Rocca, Thao Dang, Eric Fanchon, M. F., Victor Magron. <br> 2017, submitted.
  
 ## Working papers
 
 Preliminary work which has not been yet submitted for publication.
 
-1. *Decomposing Reachability Computations for Affine Systems.* <br> Sergiy Bogomolov, M. F., Goran Frehse, Andreas Podelski, Christian Schilling, Frédéric Viry.<br>  2017, to be submitted.
+1. *Explicit Error Bounds for Carleman Linearization.* <br> M. F., Amaury Pouly. <br> 2017, to be submitted. <br> See also: [carlin package](https://github.com/mforets/carlin) for SageMath.
 
-2. *Explicit Error Bounds for Carleman Linearization.* <br> M. F., Amaury Pouly. <br> 2017, to be submitted. <br> See also: [carlin package](https://github.com/mforets/carlin) for SageMath.
+2. *Carleman Linearization for Set-based Reachability*. <br> M. F., Nikolaos Kekatos, Goran Frehse, Amaury Pouly. <br> 2017, work-in-progress.
 
-3. *Erythropoiesis and Hemoglobin production modelling using optimal control of Hybrid Systems*. <br> Alexandre Rocca, Thao Dang, Eric Fanchon, M. F., Victor Magron. <br> 2017, to be submitted.
+3. *Reachability of Nonlinear Systems using Support Functions*. <br> M. F., Goran Frehse. <br> 2017, work-in-progress.
 
-3. *Carleman Linearization for Set-based Reachability*. <br> M. F., Nikolaos Kekatos, Goran Frehse, Amaury Pouly. <br> 2017, work-in-progress.
-
-4. *Reachability of Nonlinear Systems using Support Functions*. <br> M. F., Goran Frehse. <br> 2017, work-in-progress.
-
-5. *Fighting the Wrapping Effect Through Invariance*. <br> M. F., Goran Frehse. <br> 2017, work-in-progress.
+4. *Fighting the Wrapping Effect Through Invariance*. <br> M. F., Goran Frehse. <br> 2017, work-in-progress.
 
  
 ## Technical reports
