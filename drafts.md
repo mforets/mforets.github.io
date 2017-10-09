@@ -7,9 +7,9 @@ title: "Preprints & Reports"
 
 Papers which have been submitted for review.
 
-1. *Decomposing Reachability Computations for Affine Systems.* <br> Sergiy Bogomolov, M. F., Goran Frehse, Andreas Podelski, Christian Schilling, Frédéric Viry.<br>  2017, submitted.
+1. *Reach Set Approximation through Decomposition with Low-dimensional Sets and High-dimensional Matrices* <br> Sergiy Bogomolov, M. F., Goran Frehse, Andreas Podelski, Christian Schilling, Frédéric Viry.<br>  2017, submitted.
 
-2. *Erythropoiesis and Hemoglobin production modelling using optimal control of Hybrid Systems*. <br> Alexandre Rocca, Thao Dang, Eric Fanchon, M. F., Victor Magron. <br> 2017, submitted.
+2. *Occupation measure methods for modelling and analysis of biological hybrid automata*. <br> Alexandre Rocca, Thao Dang, Eric Fanchon, M. F., Victor Magron. <br> 2017, submitted.
  
 ## Working papers
 
@@ -23,7 +23,6 @@ Preliminary work which has not been yet submitted for publication.
 
 4. *Fighting the Wrapping Effect Through Invariance*. <br> M. F., Goran Frehse. <br> 2017, work-in-progress.
 
- 
 ## Technical reports
 
 Technical reports on the progess of research projects. They are not meant to be published in journals or conferences.
