@@ -2,7 +2,7 @@
 layout: post
 title:  "HPC Hackathon"
 date: 2017-09-10
-categories: upcoming_event
+categories: past_event
 tags: conference
 ---
 

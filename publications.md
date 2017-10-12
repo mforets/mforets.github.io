@@ -9,7 +9,6 @@ This section contains publications at peer-reviewed journals or conference proce
 
 ## Hybrid Systems and Formal Verification
 
-
 1. *Modeling the Wind Turbine Benchmark with PWA Hybrid
 Automata.* <br> Nikolaos Kekatos, M. F., Goran Frehse. <br> In [Applied Verification for Continuous and Hybrid Systems](http://cps-vo.org/group/ARCH), 2017 Edition. <br> Download pre-print: [[HAL]](https://hal.archives-ouvertes.fr/hal-01508674) <br> <small> **Keywords:** reachability analysis, compositional methods, nonlinear control systems, SpaceEx. </small>
 
@@ -19,7 +18,7 @@ Automata.* <br> Nikolaos Kekatos, M. F., Goran Frehse. <br> In [Applied Verifica
 
 ## Dynamical Systems and Mathematical Optimization
 
-1. *Semidefinite Characterization of Invariant Measures for  Polynomial Systems*. <br> Victor Magron, M. F., Didier Henrion <br> Accepted in [18th French-German-Italian conference on Optimization](https://math.uni-paderborn.de/ag/mathematik-und-ihre-anwendungen/fgi-2017/), to be held in Paderborn, Germany (2017). <br> Download pre-print: (to appear soon).
+1. *Semidefinite Characterization of Invariant Measures for  Polynomial Systems*. <br> Victor Magron, M. F., Didier Henrion <br> Accepted in [18th French-German-Italian conference on Optimization](https://math.uni-paderborn.de/ag/mathematik-und-ihre-anwendungen/fgi-2017/), held in Paderborn, Germany (2017). <br> Download pre-print: (to appear soon).
 <br> <small> **Keywords:** invariant measures, dynamical systems, polynomial optimization, semidefinite programming, moment-sum-of-square relaxations, Christoffel function. </small>
 
 ---

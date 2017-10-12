@@ -2,9 +2,9 @@
 layout: post
 title:  "18th French-German-Italian Conference on Optimization"
 date: 2017-06-21
-categories: upcoming_event
+categories: past_event
 tags: 
----	
+---
 
 The forthcoming [18th French-German-Italian Conference on Optimization](https://math.uni-paderborn.de/fgi-2017/) will take place in Paderborn (Germany). This year it will host the [minisymposia](https://math.uni-paderborn.de/ag/mathematik-und-ihre-anwendungen/fgi-2017/minisymposia/).  
 

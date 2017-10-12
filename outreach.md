@@ -9,6 +9,7 @@ title: "Outreach"
 
 | Conference name | Role | Year |
 |:-----|:-----:|:------|
+| [Hybrid Systems: Computation and Control (HSCC)](https://www.hscc2018.deib.polimi.it/) | Repeatability Evaluation Committee Member | 2018 |
 | [Hybrid Systems: Computation and Control (HSCC)](http://hscc2017.ece.illinois.edu/cfpb.html) | Repeatability Evaluation Committee Member | 2017 |
 | [20th International Federation of Automatic Control](https://www.ifac2017.org/) <br> (IFAC) World Conference  | Reviewer | 2017 |
 | [Computational Methods in Systems Biology](https://www.cl.cam.ac.uk/events/cmsb2016/) (CMSB)| Reviewer | 2016 |

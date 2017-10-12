@@ -2,7 +2,7 @@
 layout: post
 title:  "SageMath Talk at Pythonistas Meetup"
 date: 2017-08-17
-categories: upcoming_event
+categories: past_event
 tags: conference, invited_speaker, sagemath
 ---
 
