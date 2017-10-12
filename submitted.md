@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Submitted papers"
+title: "Preprints"
 ---
 
-Papers which have been submitted for review.
+Papers which have been submitted to a reviewing committee.
 
 ---
 
