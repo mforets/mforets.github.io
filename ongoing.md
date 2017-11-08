@@ -5,9 +5,7 @@ title: "Ongoing"
 
 Preliminary work which has not been yet submitted for publication.
 
-1. *Explicit Error Bounds for Carleman Linearization.* <br> M. F., Amaury Pouly. <br> 2017, to be submitted. <br> See also: [carlin package](https://github.com/mforets/carlin) for SageMath.
-
-2. *Reach Set Approximation of Polynomial ODEs through Carleman Linearization.* <br> M. F., Goran Frehse, Nikolaos Kekatos, , Amaury Pouly, Alexandre Rocca. <br> 2017, work-in-progress.
+2. *Reach Set Approximation of Polynomial ODEs through Carleman Linearization.* <br> M. F., Goran Frehse, Nikolaos Kekatos, Amaury Pouly, Alexandre Rocca. <br> 2017, work-in-progress.
 
 3. *Reachability of Nonlinear Systems using Support Functions.* <br> M. F., Goran Frehse. <br> 2017, work-in-progress.
 

@@ -16,7 +16,7 @@ Automata.* <br> Nikolaos Kekatos, M. F., Goran Frehse. <br> In [Applied Verifica
 
 ---
 
-## Dynamical Systems and Mathematical Optimization
+## Mathematical Optimization
 
 1. *Semidefinite Characterization of Invariant Measures for  Polynomial Systems*. <br> Victor Magron, M. F., Didier Henrion <br> Accepted in [18th French-German-Italian conference on Optimization](https://math.uni-paderborn.de/ag/mathematik-und-ihre-anwendungen/fgi-2017/), held in Paderborn, Germany (2017). <br> Download pre-print: (to appear soon).
 <br> <small> **Keywords:** invariant measures, dynamical systems, polynomial optimization, semidefinite programming, moment-sum-of-square relaxations, Christoffel function. </small>
