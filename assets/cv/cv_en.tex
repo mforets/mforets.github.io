@@ -1,0 +1,582 @@
+\documentclass[10pt]{article}
+
+% This is a helpful package that puts math inside length specifications
+
+\usepackage{calc}
+
+\usepackage{amssymb}
+\usepackage{amsmath,verbatim}
+
+\usepackage[utf8]{inputenc}
+% Layout: Puts the section titles on left side of page
+\reversemarginpar
+
+%
+%         PAPER SIZE, PAGE NUMBER, AND DOCUMENT LAYOUT NOTES:
+%
+% The next \usepackage line changes the layout for CV style section
+% headings as marginal notes. It also sets up the paper size as either
+% letter or A4. By default, letter was used. If A4 paper is desired,
+% comment out the letterpaper lines and uncomment the a4paper lines.
+%
+% As you can see, the margin widths and section title widths can be
+% easily adjusted.
+%
+% ALSO: Notice that the includefoot option can be commented OUT in order
+% to put the PAGE NUMBER *IN* the bottom margin. This will make the
+% effective text area larger.
+%
+% IF YOU WISH TO REMOVE THE ``of LASTPAGE'' next to each page number,
+% see the note about the +LP and -LP lines below. Comment out the +LP
+% and uncomment the -LP.
+%
+% IF YOU WISH TO REMOVE PAGE NUMBERS, be sure that the includefoot line
+% is uncommented and ALSO uncomment the \pagestyle{empty} a few lines
+% below.
+%
+
+%% Use these lines for letter-sized paper
+\usepackage[paper=letterpaper,
+            %includefoot, % Uncomment to put page number above margin
+            marginparwidth=1.2in,     % Length of section titles
+            marginparsep=.05in,       % Space between titles and text
+            margin=1in,               % 1 inch margins
+            includemp]{geometry}
+
+%% Use these lines for A4-sized paper
+%\usepackage[paper=a4paper,
+%            %includefoot, % Uncomment to put page number above margin
+%            marginparwidth=30.5mm,    % Length of section titles
+%            marginparsep=1.5mm,       % Space between titles and text
+%            margin=25mm,              % 25mm margins
+%            includemp]{geometry}
+
+%% More layout: Get rid of indenting throughout entire document
+\setlength{\parindent}{0in}
+
+%% This gives us fun enumeration environments. compactitem will be nice.
+\usepackage{paralist}
+
+%% Reference the last page in the page number
+%
+% NOTE: comment the +LP line and uncomment the -LP line to have page
+%       numbers without the ``of ##'' last page reference)
+%
+% NOTE: uncomment the \pagestyle{empty} line to get rid of all page
+%       numbers (make sure includefoot is commented out above)
+%
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+%\pagestyle{empty}      % Uncomment this to get rid of page numbers
+\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfootoffset{\marginparsep+\marginparwidth}
+\newlength{\footpageshift}
+\setlength{\footpageshift}
+          {0.5\textwidth+0.5\marginparsep+0.5\marginparwidth-2in}
+\lfoot{\hspace{\footpageshift}%
+       \parbox{4in}{\, \hfill %
+                    \arabic{page} of \protect\pageref*{LastPage} % +LP
+%                    \arabic{page}                               % -LP
+                    \hfill \,}}
+
+% Finally, give us PDF bookmarks
+\usepackage{color,hyperref,graphicx}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% The title (name) with a horizontal rule under it
+%
+% Usage: \makeheading{name}
+%
+% Place at top of document. It should be the first thing.
+\newcommand{\makeheading}[1]%
+        {\hspace*{-\marginparsep minus \marginparwidth}%
+         \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
+                {\large \bfseries #1}\\[-0.15\baselineskip]%
+                 \rule{\columnwidth}{1pt}
+                 
+         \end{minipage}}
+
+% The section headings
+%
+% Usage: \section{section name}
+%
+% Follow this section IMMEDIATELY with the first line of the section
+% text. Do not put whitespace in between. That is, do this:
+%
+%       \section{My Information}
+%       Here is my information.
+%
+% and NOT this:
+%
+%       \section{My Information}
+%
+%       Here is my information.
+%
+% Otherwise the top of the section header will not line up with the top
+% of the section. Of course, using a single comment character (%) on
+% empty lines allows for the function of the first example with the
+% readability of the second example.
+\renewcommand{\section}[2]%
+        {\pagebreak[2]\vspace{1.3\baselineskip}%
+         \phantomsection\addcontentsline{toc}{section}{#1}%
+         \hspace{0in}%
+         \marginpar{
+         \raggedright \scshape #1}#2}
+
+% An itemize-style list with lots of space between items
+\newenvironment{outerlist}[1][\enskip\textbullet]%
+        {\begin{itemize}[#1]}{\end{itemize}%
+         \vspace{-.6\baselineskip}}
+
+% An environment IDENTICAL to outerlist that has better pre-list spacing
+% when used as the first thing in a \section 
+\newenvironment{lonelist}[1][\enskip\textbullet]%
+        {\vspace{-\baselineskip}\begin{list}{#1}{%
+        \setlength{\partopsep}{0pt}%
+        \setlength{\topsep}{0pt}}}
+        {\end{list}\vspace{-.6\baselineskip}}
+
+% An itemize-style list with little space between items
+\newenvironment{innerlist}[1][\enskip\textbullet]%
+        {\begin{compactitem}[#1]}{\end{compactitem}}
+
+% To add some paragraph space between lines.
+% This also tells LaTeX to preferably break a page on one of these gaps
+% if there is a needed pagebreak nearby.
+\newcommand{\blankline}{\quad\pagebreak[2]}
+
+%\newcommand{\photo}[3][1=64pt,2=0.4pt,usedefault]{\def\@photowidth{#1}\def\@photoframewidth{#2}\def\@photo{#3}}% the 1st (optional) argument is the width of the photo, the 2nd (optional) argument is the thickness of the frame around it.
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\pagestyle{empty}
+%\vspace{-5cm}
+
+%\begin{figure}
+%
+%\vspace{-1cm}
+%\flushright\includegraphics[scale=0.3]{picture2}
+%\end{figure}
+
+
+\makeheading{Phd. Eng.~Marcelo FORETS IRURTIA}
+
+
+
+\section{Contact Information}
+
+%
+% NOTE: Mind where the & separators and \\ breaks are in the following
+%       table.
+%
+% ALSO: \rcollength is the width of the right column of the table 
+%       (adjust it to your liking; default is 1.85in).
+%
+\newlength{\rcollength}\setlength{\rcollength}{3.5in}%
+%
+
+
+\begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}
+Office: & Bureau 209, \href{http://www-verimag.imag.fr/}{VERIMAG} – \href{https://www.univ-grenoble-alpes.fr/}{Universit\'e Grenoble Alpes} \\
+Address:& \href{https://batiment.imag.fr/en}{Bâtiment IMAG}, 700 Av. Centrale, 38041, France \\
+Webpage: & \href{http://marcelo-forets.fr}{\url{http://marcelo-forets.fr}}\\
+Mobile: & (+33)(0)6-47-91-43-65 \\
+Email (personal): & \href{mailto:mforets@gmail.com}{mforets@gmail.com} \\
+E-mail (job): & \href{mailto:marcelo.forets-irurtia@univ-grenoble-alpes.fr}{marcelo.forets-irurtia@univ-grenoble-alpes.fr} \\
+Nationality: & Uruguaya \\
+Age: & 29
+\end{tabular}
+
+%\section{}
+%
+%\begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}
+%2 Rue Alphonse Allais& \textit{T\'el:} (+33) 9-50-66-19-27\\
+%38400 St. Martin d’H\`eres, France    & \textit{E-mail:}
+%\href{mailto:mforets@gmail.com}{mforets@gmail.com}\\
+%Nationalit\'e: & Uruguayenne \\
+%\^Age et situation familiale: & 27, Mari\'e
+%\end{tabular}
+
+\rule{\textwidth}{0.5pt}
+
+\section{Current Position}
+\href{http://www.ujf-grenoble.fr/}{\textbf{Universit\'e Grenoble Alpes}}, Grenoble, France
+\hfill\textbf{Januray 2016-current}
+\begin{itemize}
+\item[-] Post-doctoral researcher at TEMPO team of VERIMAG.
+\item[-] Keywords : hybrid systems, formal verification, nonlinear dynamical systems, compositional methods, robust control theory, mathematical optimization, scientific computing.
+\end{itemize}
+
+%\section{Temas de inter\'es acad\'emico}
+%\begin{itemize}
+%\item[-] Physique math\'{e}matique: th\`eorie spectrale des \'{e}quations d'evolution,\\ analyse numérique, syst\`emes dynamiques.
+%
+%\item[-] Physique th\'{e}orique: simulation quantique, percolation, th\'{e}orie des champs en espace courbe.
+%
+%\end{itemize}
+
+\section{Formaci\'{o}n}
+%
+
+%\blankline
+
+\href{http://www.ujf-grenoble.fr/}{\textbf{Universit\'e Joseph Fourier}}, Grenoble, France
+\hfill\textbf{2013--2015}
+
+\begin{outerlist}
+\item[-] Doctorat en Math\'ematiques et Informatique à l'\'Ecole Doctorale MSTII
+	\begin{innerlist}
+        \item[-] Laboratorio: \href{http://www.liglab.fr/}{Laboratoire d'Informatique de Grenoble}, \'equipe \href{http://capp.imag.fr/wordpress/}{CAPP}.
+        \item[-] Título de la tesis: Marches Quantiques et M\'ecanique Quantique Relativiste.
+	\item[-] Directores de tesis: \href{http://membres-lig.imag.fr/arrighi/}{Pablo Arrighi} (directeur) et \href{http://www-fourier.ujf-grenoble.fr/~joye/}{Alain Joye} (co-encadrant).
+	\item[-] Palabras clave: mecánica cuántica discreta, simulación de sistemas cuánticos en interacción, análisis espectral, caminatas cuánticas, mecánica cuántica relativista.
+	\end{innerlist}
+
+
+\end{outerlist}
+
+\blankline
+
+\href{http://www.fing.edu.uy/}{\textbf{UdelaR}}, Facultad de Ingeniería, Montevideo, Uruguay
+\hfill\textbf{2006-2012}
+
+\begin{outerlist}
+
+\item[-] Ingeniero Electricista, opci\'on Electr\'onica, 2012 
+\item[-] Tesis de grado: \href{http://iie.fing.edu.uy/investigacion/grupos/lai/}{CubeSatET:} Diseño e implementación de una estación espacial terrestre como datalink para un satélite remoto.
+
+\end{outerlist}
+
+\blankline
+
+\href{http://www.fing.edu.uy/}{\textbf{UdelaR}}, Facultad de Ciencias, Montevideo, Uruguay
+\hfill\textbf{2006-2010}
+
+\begin{outerlist}
+
+	\item[-] Licenciado en F\'isica, opci\'on F\'isica (\emph{Licence en Physique})
+	\item[-] Clasificación: 10.04/12 (1er rango por año de obtención de diploma)
+
+\end{outerlist}
+
+\section{Idiomas}
+
+espa\~nol (lengua materna), ingl\'es (corriente), franc\'es (corriente), portugu\'es (nociones)
+
+%\blankline
+%
+%\href{http://www.fing.edu.uy/}{\textbf{UdelaR}}, Facultad de Ciencias, Montevideo, Uruguay
+%\hfill\textbf{2006-2010}
+%
+%\begin{outerlist}
+%	
+%	\item[-] Licenciado en F\'isica, opci\'on F\'isica (\emph{Licence en Physique})
+%	\item[-] Clasificación: 10.04/12 (1er rango por año de obtención de diploma)
+%	
+%\end{outerlist}
+
+\section{Experiencia profesional}
+
+\href{http://www.ujf-grenoble.fr/}{\textbf{Univ. Grenoble Alpes}}, Grenoble, France
+\hfill\textbf{2016--2017}
+
+\begin{outerlist}
+	\item[]\textit{Investigación \& Proyectos}
+	\begin{innerlist}
+		\item[-] NANO2017. Estudio de la variabilidad de circuitos electrónicos analógicos. Colaboración con ST Microelectronics.
+	\end{innerlist}
+\end{outerlist}
+
+\blankline
+
+\href{http://www.ujf-grenoble.fr/}{\textbf{Univ. Joseph Fourier}}, Grenoble, France
+\hfill\textbf{2013--2015}
+
+\begin{outerlist}
+\item[]\textit{Investigación \& Proyectos}
+\begin{innerlist}
+\item[-] Doctorante en el equipo CAPP del Laboratorio de Informática de Grenoble, y del equipo de \href{http://www-fourier.ujf-grenoble.fr/?q=fr/content/physique-mathematique}{Física Matemática} del Instituto Fourier.
+\end{innerlist}
+\end{outerlist}
+
+\blankline
+
+\href{http://www.udelar.edu.uy}{\textbf{UdelaR}}, Montevideo, Uruguay 
+\hfill\textbf{2008--2012}
+
+\begin{outerlist}
+\item[]\textit{Enseñanza}
+\begin{innerlist}
+\item[-] \href{http://www.fing.edu.uy}{\textbf{Facultad de Ingenier\'ia}}: Docente (ayudante, 20hs/sem) para cursos de 1er y 2o año de las carreras de Ingeniería (física general, mecánica, electromagnetismo), y de la Licenciatura en Física (mecánica estadística, laboratorio).
+\item[-] \href{http://www.fhuce.edu.uy/}{\textbf{Facultad de Humanidades y Ciencias de la Educaci\'{o}n}}: Docente del curso de Probabilidad y Estadística.
+\end{innerlist}
+
+\item[]\textit{Investigación \& Proyectos}
+\begin{innerlist}
+\item[-] Miembro del equipo ``Física Computacional y Mecánica Estadística" del Instituto de Física. Palabras clave: procesamiento cuántico de la información, correlaciones cuánticas, algorithms de búsqueda. 
+\item[-] Miembro del equpo ``Plataforma de simulaci\'{o}n para el sistema de energ\'{i}a el\'{e}ctrico'' \href{http://iie.fing.edu.uy/simsee/}{SimSEE} del Instituto de Ingeiería Eléctrica (IIE), proyecto ANII. Palabras clave: optimización estocástica, programación no lineal.
+\end{innerlist}
+
+\end{outerlist}
+
+%dddd (agregar el de humanidades) Cours de Probabilit\'e pour les Sciences Sociales
+
+%\section{Distinctions obtenues}
+%
+%\href{http://www.xxxxx}{\textbf{Universit\`e Joseph Fourier, ED-MSTII}}, Grenoble, France
+%\hfill\textbf{octobre 2013}
+%
+%\begin{outerlist}
+%\item[] Allocations president. 
+%%	\begin{innerlist}
+%%        \item Laboratoire : \href{http://www.liglab.fr/}{Laboratoire d'Informatique de Grenoble}, \'equipe \href{http://capp.imag.fr/wordpress/}{CAPP} (Calcul, Algorithmes, Programmes et Preuves)
+%%        \item Titre : Automates cellulaires quantiques et simulation de systèmes physiques
+%%	\item Directeurs: \href{http://membres-lig.imag.fr/arrighi/}{Pablo Arrighi} (directeur) et \href{http://www-fourier.ujf-grenoble.fr/~joye/}{Alain Joye} (co-encadrant)
+%%	\item Mots-cl\'es : automates cellulaires quantiques, m\`ecanique quantique discr\`ete, simulation quantique, analyse des EDPs, analyse spectrale
+%%	\end{innerlist}
+%
+%
+%\end{outerlist}
+%
+%\blankline
+%
+%\href{http://www.xxxxx/}{\textbf{Scientific Research Commision (CSIC)}}, Montevideo, Uruguay
+%\hfill\textbf{2011-2012}
+%
+%\begin{outerlist}
+%
+%\item [] Scholarship directed to enseignants from University, awarded to 24 out of 78 postulants.
+%%
+%%        \begin{innerlist}
+%%        \item Grade : 7.8/12     
+%%        \item Projet de th\'ese (avec P. Cabalo et S. Alpuy) : \href{http://iie.fing.edu.uy/investigacion/grupos/lai/}{CubeSatET:} Design and implementation of a terrestrial station to provide datalink with a remote satellite.
+%%        \item Directeur: Juan Pechiar 
+%%        \end{innerlist}
+%%
+%%\item[] Licence en Physique, 2010 
+%%	\begin{innerlist}
+%%        \item Grade : 10/12 
+%%        \item Cours approfondis : Computation quantique, Th\`eorie de Nombres, Computation de haute performance, xxx. 
+%%        \end{innerlist}
+%
+%\end{outerlist}
+%
+%\blankline
+%
+%\href{http://www.xxxxx/}{\textbf{Research initiation scholarship (PEDECIBA)}}, Montevideo, Uruguay
+%\hfill\textbf{2008-2009}
+%
+%\begin{outerlist}
+%
+%\item [] Scholarship directed to enseignants from University, awarded to 24 out of 78 postulants.
+%%
+%%        \begin{innerlist}
+%%        \item Grade : 7.8/12     
+%%        \item Projet de th\'ese (avec P. Cabalo et S. Alpuy) : \href{http://iie.fing.edu.uy/investigacion/grupos/lai/}{CubeSatET:} Design and implementation of a terrestrial station to provide datalink with a remote satellite.
+%%        \item Directeur: Juan Pechiar 
+%%        \end{innerlist}
+%%
+%%\item[] Licence en Physique, 2010 
+%%	\begin{innerlist}
+%%        \item Grade : 10/12 
+%%        \item Cours approfondis : Computation quantique, Th\`eorie de Nombres, Computation de haute performance, xxx. 
+%%        \end{innerlist}
+%
+%\end{outerlist}
+%
+%
+
+\newenvironment{benumerate}[1]{
+    \let\oldItem\item
+    \def\item{\addtocounter{enumi}{-2}\oldItem}
+    \begin{enumerate}
+    \setcounter{enumi}{#1}
+    \addtocounter{enumi}{1}
+}{
+    \end{enumerate}
+}
+
+\section{Publicaciones en revistas con revisón por pares (selección)}
+
+\begin{outerlist}
+%\item[] 
+%\begin{benumerate}{4}
+%\item Enhancing entropy production via dynamical percolation (joint with R. Donangelo, A. Romanelli). \emph{(unpublished)}
+
+\item[-] Quantum Walking in Curved Spacetime, Pablo Arrighi, Stefano Facchini, M. F. \emph{Quantum Information Processing} (2016) 15: 3467.
+
+\item[-] \href{http://iopscience.iop.org/1367-2630/16/9/093007/}{Discrete Lorentz covariance for Quantum Walks and Quantum Cellular Automata}. P. Arrighi, S. Facchini. \emph{New Journal of Physics}, 16 (2014) 093007. 
+
+\item[-] \href{http://arxiv.org/abs/1307.3524}{The Dirac equation as a quantum walk: higher dimensions, observational convergence}. P. Arrighi, V. Nesme and M.F. \emph{Journal of Physics A: Mathematical and Theoretical}, 47 (2014) 465302.
+
+%\item \href{http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=8544748&fileId=S0960129511000600}{Spatial quantum search in a triangular network} (joint with G. Abal, R. Donangelo and R. Portugal). Publi\'{e} en \emph{Mathematical Structures in Computer Science}, 22 , pp 521-531, Cambridge University Press. Voir aussi arXiv pre-print: \href{http://arxiv.org/abs/1009.1422}{arXiv:1009.1422}
+%\end{benumerate}
+\end{outerlist}
+
+\section{Publicaciones en conferencias con revisión por pares  (selección)}
+
+\begin{outerlist}
+%	\begin{benumerate}{3}
+	
+		\item[-] Modeling the Wind Turbine Benchmark with PWA Hybrid Automata. Applied Verification for Continuous and Hybrid Systems (ARCH 2017). Palabras clave: reachability analysis, compositional methods, nonlinear control systems, SpaceEx. 
+
+		\item[-] Constructing Verification Models of Nonlinear Simulink Systems via Syntactic Hybridization. Nikolaos Kekatos, M. F., Goran Frehse. 56th IEEE Conference on Decision and Control, to be held in Melbourne, Australia (2017). 
+		
+		\item[-] Semidefinite Characterization of Invariant Measures for Polynomial Systems. Victor Magron, M. F., Didier Henrion. 18th French-German-Italian conference on Optimization, en Paderborn, Germany (2017). Palabras clave: Keywords: invariant measures, dynamical systems, polynomial optimization, semidefinite programming, moment-sum-of-square relaxations, Christoffel function. 
+
+%	\end{benumerate}
+\end{outerlist}
+
+
+\section{Trabajos submitidos en proceso de revisión}
+
+\begin{outerlist}
+	\item[] 
+	\begin{benumerate}{3}
+
+		\item Reach Set Approximation through Decomposition with Low-dimensional Sets and High-dimensional Matrices, Sergiy Bogomolov, M. F., Goran Frehse, Andreas Podelski, Christian Schilling, Frédéric Viry. 2017. Palabras clave: reachability analysis, safety verification, linear time-invariant systems, set recurrence relation.
+		
+		\item Occupation measure methods for modelling and analysis of biological hybrid automata. 2017. Thao Dang, Eric Fanchon, M. F., Victor Magron, Alexandre Rocca. arXiv pre-print: \href{https://arxiv.org/abs/1710.03158}{arXiv:1710.03158} Palabras clave: biological modelling, hybrid dynamical system, optimal control problem, semidefinite optimization, occupation measures. 
+		
+		\item Explicit Error Bounds for Carleman Linearization. 2017. M. F., Amaury Pouly. arXiv pre-print: \href{https://arxiv.org/abs/1711.02552}{arXiv:1711.02552} Palabras clave: carleman linearization, polynomial ODEs, infinite-dimensional systems, guaranteed integration, nonlinear control theory.  
+
+	\end{benumerate}
+\end{outerlist}
+
+\section{Presentaciones orales}
+
+\begin{itemize}
+
+	\item[-]  Quantum walking in curved spacetime: (3+1) dimensions, and beyond , 2016. 7th colloquium of the CNRS GDR Quantum Engineering, Foundations and Applications (IQFA). 
+
+	\item[-]  Journ\'{e}es Informatique Quantique 2013, Nancy, France (2013). \emph{The Dirac Quantum Walk}.
+
+	\item[-] Mathematics, Statistics and Applied Mathematics Seminar, NUI Galway, Ireland (2014). Orador invitado. \emph{The Cauchy problem for the continuous limit of Quantum Walks}. 
+
+\end{itemize}
+
+\section{Presentaciones en formato póster  y seminarios (selección)}
+
+\begin{outerlist}
+	%	\begin{benumerate}{3}
+	
+	\item[-] Colloque du \href{http://gdriqfa.unice.fr/?lang=en}{GDR IQFA}, Lyon, France (2014). Poster: \emph{Discrete Lorentz covariance}.
+	
+	\item[-] Quantum walks and quantum simulations, Scuola Normale Superiore, Pisa, Italy (2013). Poster: \emph{The Dirac equation as a Quantum Walk}.
+	
+	%	\end{benumerate}
+\end{outerlist}
+
+
+\section{Participación en Conferencias y Workshops} 
+
+\begin{itemize}
+
+\item[-] \href{http://www.fis.puc.cl/~smp2015/frontpage.html}{Summer School on current topics in Mathematical Physics}, Valparaiso, Chile, (2015). Lecturers: Barry Simon, Gunther Uhlmann, Simone Warzel, Jakob Yngvason.
+
+\item[-] \href{http://www.math.kit.edu/iana3/page/isem/en}{18th ISEM 2014/2015}, Blaubeuren, Germany (2015). Form Methods for Evolution Equations, and Applications.
+
+\item[-] \href{http://www.lebesgue.fr/content/sem2015-math-phy}{Meeting in Mathematical Physics}, Nantes, France, (2015). Institut Lebesgue, en partenariat avec \href{http://www.math.sciences.univ-nantes.fr/NOSEVOL/node/2}{ANR Nosevol}, et \href{http://www.math.sciences.univ-nantes.fr/dynqua/Accueil}{GDR Dynamique quantique}.
+
+\item[-] \href{http://pillet.univ-tln.fr/aoqs/www/}{Advances in Open Quantum Systems}, Autrans, France (2013). Organizado por el proyecto \href{http://bruneau.u-cergy.fr/ANR/ANR.html}{ANR HamMark}.
+
+\item[-] III Workshop-Escola de computação e Informação Quântica. Brazilian National Laboratory of Computer Science (LNCC), Petrópolis, RJ, Brasil (2010).
+
+\item[-] NASA \& NIA 2010 RASC-AL Design Competition Forum (2010). 
+
+\item[-] II Quantum Information School \& Workshop, Paraty, RJ, Brasil (2009).
+
+\end{itemize}
+
+
+%\item[] 
+%\begin{itemize}
+%\item \href{http://iopscience.iop.org/1367-2630/16/9/093007/}{Discrete Lorentz covariance for Quantum Walks and Quantum Cellular Automata} (joint with P. Arrighi, S. Facchini). Publi\'{e} en \emph{New Journal of Physics}, 16 (2014) 093007. Voir aussi arXiv pre-print: \href{http://arxiv.org/abs/1404.4499}{arXiv:1404.4499}
+%\item \href{http://arxiv.org/abs/1307.3524}{The Dirac equation as a quantum walk: higher dimensions, observational convergence} (joint with P. Arrighi, V. Nesme). Publi\'{e} en  \emph{Journal of Physics A: Mathematical and Theoretical}. Voir aussi arXiv pre-print: \href{http://arxiv.org/abs/1307.3524}{arXiv:1307.3524}
+%\item \href{http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=8544748&fileId=S0960129511000600}{Spatial quantum search in a triangular network} (joint with G. Abal, R. Donangelo and R. Portugal). Publi\'{e} en \emph{Mathematical Structures in Computer Science}, 22 , pp 521-531, Cambridge University Press. Voir aussi arXiv pre-print: \href{http://arxiv.org/abs/1009.1422}{arXiv:1009.1422}
+%\end{itemize}
+%\end{outerlist}
+
+\section{Organización de Conferencias y Workshops}
+
+\begin{itemize}
+
+	\item[-] \href{http://gm-rqw.imag.fr/}{Meeting in Relativistic Quantum Walks}, Grenoble, France, (2014). Organización científica y material de la conferencia.
+
+	\item[-] II Reuni\'{o}n conjunta de la Sociedad Argentina de F\'{i}sica y de la Sociedad Uruguaya de F\'{i}sica, Montevideo, Uruguay (2011). Miembro del comité organizador.
+\end{itemize}
+
+\section{Distinciones} 
+\begin{itemize}
+	\item[-] Beca de doctorado de la Univ. Joseph Fourier, Grenoble, Francia (2013-2015).
+\item[-] Finalizaci\'{o}n de estudios de posgrado para docentes de la UdelaR. CSIC (2011). 
+\item[-] Beca de Iniciación a la Investigación. PEDECIBA, Uruguay (2008). G. Abal, R. Donangelo.  
+\end{itemize}
+
+\section{Actividades Académicas}
+\begin{itemize}
+\item[-] Hybrid Systems: Computation and Control (HSCC) Repeatability Evaluation Commitee Member (2016, 2017).
+\item[-] 20th International Federation of Automatic Control
+(IFAC) World Conference, Reviewer, 2017. 
+\item[-] Revisor en otras revistas científicas y conferencias: Computational Methods in Systems Biology (CMSB), Hybrid Systems Biology (HSB), Physica A: Statistical Mechanics and its Applications, Nature Scientific Reports, IEEE/ACM Transactions on Computational Biology and Bioinformatics.
+\item[-] Miembro del jurado de tesis de grado en la Univ. ORT, Uruguay (2012) y en la Univ. de la Rep\'{u}blica, Uruguay (2010). 
+\item[-] Delegado estudiante del comit\'e de PEDECIBA F\'isica (2011-2012).
+\end{itemize}
+
+%\section{Idiomas}
+%
+%espa\~nol (lengua materna), ingl\'es (corriente), franc\'es (corriente), portugu\'es (nociones)
+
+\section{Otras actividades}
+
+\begin{itemize}
+	\item[-] Miembro del comit\'e organizador de la Olimpiada Nacional de Fisica, Uruguay (2009-actual), y delegado de Uruguay en las OIbF en Granada, España (2013).
+	\item[-] Desarrollador open-source del software de cálculo matemático SageMath. 
+\end{itemize}
+
+\section{Conocimiento Técnico}
+
+\begin{itemize}
+	\item[-] Herramientas de productividad. Sistemas de preparación de documentos: LaTeX. Sistemas operativos: Linux, MacOSX. Sistemas de control de revisión: git
+	\item[-] Lenguages de programación científica: Julia (experto), Python/NumPy/SciPy (experto), MATLAB (experto), Cython (intermedio). Lenguages de programación de sistemas: C (intermedio), Fortran (nociones), Java (nociones).
+\end{itemize}
+ 
+
+%\section{Loisirs}
+%
+%voyager, histoire des sciences, math\`ematique recreationnelle
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% End CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%\begin{itemize}
+%	\item[-] Hybrid Systems: Computation and Control (HSCC) Repeatability Evaluation Commitee Member (2016, 2017).
+%	\item[-] 20th International Federation of Automatic Control
+%	(IFAC) World Conference, Reviewer, 2017. 
+%	\item[-] Revisor en varias revistas científicas y conferencias: Computational Methods in Systems Biology (CMSB), Hybrid Systems Biology (HSB), Physica A: Statistical Mechanics and its Applications, Nature Scientific Reports, IEEE/ACM Transactions on Computational Biology and Bioinformatics.
+%	\item[-] Miembro del jurado de tesis de grado: Univ. ORT, Uruguay (2012); Univ. de la Rep\'{u}blica, Uruguay (2010). 
+%	\item[-] Miembro del comit\'e organizador de la Olimpiada Nacional de Fisica, Uruguay (2009-actual), y delegado de Uruguay en las OIbF en Granada, España (2013).
+%	\item[-] Delegado estudiante del comit\'e de PEDECIBA F\'isica (2011-2012).
+%\end{itemize}
+
+
+
+
+
+
+
