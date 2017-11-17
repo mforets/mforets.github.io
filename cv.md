@@ -10,7 +10,7 @@ This is a four-pages version with a selected list of academic activities and
 research work.
 
 - Curiculum Vitae (in English).
-- [Curriculum Vitae (in Spanish)](assets/cv/cv_en.pdf).
+- [Curriculum Vitae (in Spanish)](assets/cv/cv_es.pdf).
 - Curriculum Vitae (in French).
 
 ## Long version / Versión CVuy
