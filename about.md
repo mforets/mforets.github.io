@@ -39,7 +39,7 @@ Currently, I work as a post-doc researcher at TEMPO team led by [Oded Maler](htt
 - Email: `marcelo.forets-irurtia@univ-grenoble-alpes.fr`
 - VERIMAG: Office: 209 IMAG Building
 - Address: Bat. IMAG, 700 Av. Centrale, 38041, France.
-- Tel: +33 (0)6 47 91 43 65
+- Tel: +598 (0)92 079 370
 
 ----
 
