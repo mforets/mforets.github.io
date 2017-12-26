@@ -9,10 +9,13 @@ This section contains publications at peer-reviewed journals or conference proce
 
 ## Hybrid Systems and Formal Verification
 
-1. *Modeling the Wind Turbine Benchmark with PWA Hybrid
+1. *Reach Set Approximation through Decomposition with Low-dimensional Sets and High-dimensional Matrices* <br> Sergiy Bogomolov, M. F., Goran Frehse, Andreas Podelski, Christian Schilling, Frédéric Viry.<br>  In [21st ACM International Conference on Hybrid Systems: Computation and Control](https://www.hscc2018.deib.polimi.it/),
+2018 Edition to be held in Porto, Portugal. <br><small> **Keywords:** reachability analysis, safety verification, linear time-invariant systems, set recurrence relation </small>
+
+2. *Modeling the Wind Turbine Benchmark with PWA Hybrid
 Automata.* <br> Nikolaos Kekatos, M. F., Goran Frehse. <br> In [Applied Verification for Continuous and Hybrid Systems](http://cps-vo.org/group/ARCH), 2017 Edition. <br> Download pre-print: [[HAL]](https://hal.archives-ouvertes.fr/hal-01508674) <br> <small> **Keywords:** reachability analysis, compositional methods, nonlinear control systems, SpaceEx. </small>
 
-2. *Constructing Verification Models of Nonlinear Simulink Systems via Syntactic Hybridization.*  <br> Nikolaos Kekatos, M. F., Goran Frehse.<br>  Accepted in 56th IEEE Conference on Decision and Control, to be held in Melbourne, Australia (2017). <br> Download pre-print: [[HAL]](https://hal.archives-ouvertes.fr/hal-01487658), [[local copy]]({{site.url}}/assets/papers/synlin_v2.pdf).
+3. *Constructing Verification Models of Nonlinear Simulink Systems via Syntactic Hybridization.*  <br> Nikolaos Kekatos, M. F., Goran Frehse.<br>  Accepted in 56th IEEE Conference on Decision and Control, to be held in Melbourne, Australia (2017). <br> Download pre-print: [[HAL]](https://hal.archives-ouvertes.fr/hal-01487658), [[local copy]]({{site.url}}/assets/papers/synlin_v2.pdf).
 
 ---
 
