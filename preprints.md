@@ -9,7 +9,7 @@ Papers which have been submitted to a reviewing committee.
 
 ## Hybrid Systems and Formal Verification
 
-2. *LazySets: a Library for Cconvex Sets*.
+2. *LazySets: a Library for Convex Sets*.
 <br> Sergiy Bogomolov, M. F., Goran Frehse, Andreas Podelski, Christian Schilling, Frédéric Viry.
 <br> 2018, submitted. <br> <small> **Keywords:** convex sets, lazy set representation, reachability analysis. </small>
 
