@@ -14,9 +14,8 @@ This section contains publications at peer-reviewed journals or conference proce
 <br> Download pre-print: [[arXiv]](https://arxiv.org/abs/1801.09526)
 <br><small> **Keywords:** reachability analysis, safety verification, linear time-invariant systems, set recurrence relation </small>
 
-
-2. *Modeling the Wind Turbine Benchmark with PWA Hybrid
-Automata.* <br> Nikolaos Kekatos, M. F., Goran Frehse. <br> In [Applied Verification for Continuous and Hybrid Systems](http://cps-vo.org/group/ARCH), 2017 Edition. <br> Download pre-print: [[HAL]](https://hal.archives-ouvertes.fr/hal-01508674) <br> <small> **Keywords:** reachability analysis, compositional methods, nonlinear control systems, SpaceEx. </small>
+2. *Modeling the Wind Turbine Benchmark with PWA Hybrid Automata.* <br>
+Nikolaos Kekatos, M. F., Goran Frehse. <br> In [Applied Verification for Continuous and Hybrid Systems](http://cps-vo.org/group/ARCH), 2017 Edition. <br> Download pre-print: [[HAL]](https://hal.archives-ouvertes.fr/hal-01508674) <br> <small> **Keywords:** reachability analysis, compositional methods, nonlinear control systems, SpaceEx. </small>
 
 3. *Constructing Verification Models of Nonlinear Simulink Systems via Syntactic Hybridization.*  <br> Nikolaos Kekatos, M. F., Goran Frehse.<br>  Accepted in 56th IEEE Conference on Decision and Control, held in Melbourne, Australia (2017). <br> Download pre-print: [[HAL]](https://hal.archives-ouvertes.fr/hal-01487658), [[local copy]]({{site.url}}/assets/papers/synlin_v2.pdf).
 
@@ -24,8 +23,14 @@ Automata.* <br> Nikolaos Kekatos, M. F., Goran Frehse. <br> In [Applied Verifica
 
 ## Mathematical Optimization
 
-1. *Semidefinite Characterization of Invariant Measures for  Polynomial Systems*. <br> Victor Magron, M. F., Didier Henrion <br> Accepted in [18th French-German-Italian conference on Optimization](https://math.uni-paderborn.de/ag/mathematik-und-ihre-anwendungen/fgi-2017/), held in Paderborn, Germany (2017). <br> Download pre-print: (to appear soon).
+1. *Occupation measure methods for modelling and analysis of biological hybrid systems*. <br> Alexandre Rocca, M. F., Victor Magron, Eric Fanchon, Thao Dang.<br>
+In [6th IFAC Conference on Analysis and Design of Hybrid Systems (ADHS 18)](https://www.cs.ox.ac.uk/conferences/ADHS18/) to be held in Oxford, UK, July 11-13, 2018.
+<br> Download pre-print: [[arXiv - cs.SY]](https://arxiv.org/abs/1710.03158).<br>
+<small> **Keywords:** biological modelling, hybrid dynamical system, optimal control problem, semidefinite optimization, occupation measures. </small>
+
+2. *Semidefinite Characterization of Invariant Measures for  Polynomial Systems*. <br> Victor Magron, M. F., Didier Henrion <br> Accepted in [18th French-German-Italian conference on Optimization](https://math.uni-paderborn.de/ag/mathematik-und-ihre-anwendungen/fgi-2017/), held in Paderborn, Germany (2017). <br> Download pre-print: (to appear soon).
 <br> <small> **Keywords:** invariant measures, dynamical systems, polynomial optimization, semidefinite programming, moment-sum-of-square relaxations, Christoffel function. </small>
+
 
 ---
 
