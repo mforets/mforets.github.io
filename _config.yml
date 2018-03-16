@@ -1,15 +1,15 @@
 # Site Info
 title:               PhD. Eng. Marcelo Forets
-tagline:             'Researcher in Applied Mathematics'
-description:         'Post-doc researcher at VERIMAG group from Univ. Grenoble Alpes, France.'
+tagline:             'Researcher in Applied Mathematics. Developer.'
+description:         'Professor at UTEC, Uruguay, and former post-doc researcher at VERIMAG group from Univ. Grenoble Alpes, France.'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://marcelo-forets.fr/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Site Configuration
 gems:
     - jekyll-paginate
-markdown: kramdown 
-# this is the number of posts that are shown at the same time in the Home page. In general it is used in index.html 
+markdown: kramdown
+# this is the number of posts that are shown at the same time in the Home page. In general it is used in index.html
 paginate:            8
 version:             1.0.0
 # Permalinks
