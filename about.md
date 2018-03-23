@@ -5,17 +5,31 @@ title: About
 
 **Contents:**
 
-- [Short bio](#short_bio)
+- [Short bio (spanish)](#short_bio_sp)
+- [Short bio (english)](#short_bio_en)
 - [Presentation](#presentation)
 - [Research interests](#research_interests)
 - [Contact information](#contact_information)
 - [Find me elsewhere](#find_me_elsewhere)
 - [Some facts about the setup of this webpage](#webpage)
 
-### Short bio <a name="short_bio"></a>
+### Short bio (spanish) <a name="short_bio_sp"></a>
+
+Marcelo Forets es un investigador que trabaja con métodos computacionales, físicos y matemáticos aplicados a los desafíos que presentan
+las Ciencias de la Ingeniería. Se interesa en establecer puentes entre la investigación teórica y sus aplicaciones en las áreas de desarrollo del país.
+
+Nacido en Uruguay (Montevideo, 1988), se graduó en la Licenciatura en Física de la Univ. de la República (Facultad de Ciencias), y luego en la carrera de
+Ingeniería Eléctrica (Facultad de Ingeniería). Se trasladó a Francia para seguir un doctorado (PhD) en Matemáticas e Informática (Univ. Joseph Fourier, 2013-2015),
+escribiendo una tesis titulada "Caminatas Cuánticas y Mecánica Cuántica Relativista". Actualmente es Docente Encargado en la Universidad Tecnológica (UTEC, Durazno).
+Previamente fue (2016-2017) investigador de post-doctorado en el laboratorio VERIMAG de la Universidad Grenoble Alpes. Dicho laboratorio es líder en investigación
+teórica y técnica sobre los sistemas embebidos y ciber-físicos, que se encuentran en multitud de aplicaciones ya sea aviónica/aeronáutica, transporte, telecomunicaciones, tarjetas inteligentes y electrónica. Su área de investigación se halla en la frontera entre la matemática aplicada (optimización, métodos computacionales) y la
+verificación formal (sistemas dinámicos híbridos y control robusto).
+
+### Short bio (english) <a name="short_bio_en"></a>
 
 <p class="message">
-  Marcelo Forets is a researcher working on scientific computing and mathematical methods for engineering sciences. He was born in Uruguay (Montevideo, 1988), graduated in Physics from Univ. de la Republica (Facultad de Ciencias), and then in Electrical Engineering (Facultad de Ingenieria). He moved to France for a PhD in Mathematics and Informatics (Univ. Joseph Fourier, 2013-2015), writing a thesis on quantum computational models and mathematical physics of the quantum random walk. He is currently a second year post-doc researcher at VERIMAG laboratory of Université Grenoble Alpes, and his research interests lie in the frontier of applied mathematics (optimization, numerical analysis) and formal verification (continuous and hybrid dynamical systems, robust control).
+  Marcelo Forets is a researcher working on scientific computing and mathematical methods for engineering sciences. He was born in Uruguay (Montevideo, 1988), graduated in Physics from Univ. de la Republica (Facultad de Ciencias), and then in Electrical Engineering (Facultad de Ingenieria). He moved to France for a PhD in Mathematics and Informatics (Univ. Joseph Fourier, 2013-2015), writing a thesis on quantum computational models and mathematical physics of the quantum random walk. He is current
+  Associate Professor at Unversidad Tecnológica del Uruguay ([UTEC](https://utec.edu.uy)), and former post-doctoral researcher at VERIMAG laboratory of Université Grenoble Alpes. His research interests lie in the frontier of applied mathematics (optimization, numerical analysis) and formal verification (continuous and hybrid dynamical systems, robust control).
 </p>
 
 ### Presentation <a name="presentation"></a>
