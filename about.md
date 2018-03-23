@@ -36,10 +36,11 @@ Currently, I work as a post-doc researcher at TEMPO team led by [Oded Maler](htt
 
 ### Contact information <a name="contact_information"></a>
 
-- Email: `marcelo.forets-irurtia@univ-grenoble-alpes.fr`
-- VERIMAG: Office: 209 IMAG Building
-- Address: Bat. IMAG, 700 Av. Centrale, 38041, France.
+- University email: `marcelo.forets@utec.edu.uy`
+- University address: Francisco Antonio Maciel s/n Esq. Luis Morquio CP 97000, Durazno
+- [Locate it in the map](https://www.google.com.uy/maps/place/UTEC+-+ITR+Centro+Sur+-+Durazno/@-33.3873557,-56.5204628,15.54z/data=!4m12!1m6!3m5!1s0x95a6ea7f912df1e9:0xb2e4f5934a4707ff!2sUTEC+-+ITR+Centro+Sur+-+Durazno!8m2!3d-33.3872582!4d-56.5149112!3m4!1s0x95a6ea7f912df1e9:0xb2e4f5934a4707ff!8m2!3d-33.3872582!4d-56.5149112?hl=es-419)
 - Tel: +598 (0)92 079 370
+- Gmail: `mforets@gmail.com`
 
 ----
 
