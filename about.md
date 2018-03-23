@@ -15,15 +15,14 @@ title: About
 
 ### Short bio (spanish) <a name="short_bio_sp"></a>
 
-Marcelo Forets es un investigador que trabaja con métodos computacionales, físicos y matemáticos aplicados a los desafíos que presentan
-las Ciencias de la Ingeniería. Se interesa en establecer puentes entre la investigación teórica y sus aplicaciones en las áreas de desarrollo del país.
-
-Nacido en Uruguay (Montevideo, 1988), se graduó en la Licenciatura en Física de la Univ. de la República (Facultad de Ciencias), y luego en la carrera de
-Ingeniería Eléctrica (Facultad de Ingeniería). Se trasladó a Francia para seguir un doctorado (PhD) en Matemáticas e Informática (Univ. Joseph Fourier, 2013-2015),
-escribiendo una tesis titulada "Caminatas Cuánticas y Mecánica Cuántica Relativista". Actualmente es Docente Encargado en la Universidad Tecnológica (UTEC, Durazno).
-Previamente fue (2016-2017) investigador de post-doctorado en el laboratorio VERIMAG de la Universidad Grenoble Alpes. Dicho laboratorio es líder en investigación
-teórica y técnica sobre los sistemas embebidos y ciber-físicos, que se encuentran en multitud de aplicaciones ya sea aviónica/aeronáutica, transporte, telecomunicaciones, tarjetas inteligentes y electrónica. Su área de investigación se halla en la frontera entre la matemática aplicada (optimización, métodos computacionales) y la
-verificación formal (sistemas dinámicos híbridos y control robusto).
+<p class="message">
+  Marcelo Forets es un investigador que trabaja con métodos computacionales, físicos y matemáticos aplicados a los desafíos que presentan
+  las Ciencias de la Ingeniería. Se interesa en establecer puentes entre la investigación teórica y sus aplicaciones en las áreas de desarrollo del país.
+  Nacido en Uruguay (Montevideo, 1988), se graduó en la Licenciatura en Física de la Univ. de la República (Facultad de Ciencias), y luego en la carrera de
+  Ingeniería Eléctrica (Facultad de Ingeniería). Se trasladó a Francia para seguir un doctorado (PhD) en Matemáticas e Informática (Univ. Joseph Fourier, 2013-2015),
+  escribiendo una tesis titulada "Caminatas Cuánticas y Mecánica Cuántica Relativista". Actualmente es Docente Encargado en la Universidad Tecnológica (UTEC, Durazno).
+  Previamente fue (2016-2017) investigador de post-doctorado en el laboratorio VERIMAG de la Universidad Grenoble Alpes. 
+</p>
 
 ### Short bio (english) <a name="short_bio_en"></a>
 

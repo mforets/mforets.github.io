@@ -1,7 +1,7 @@
 # Site Info
 title:               PhD. Eng. Marcelo Forets
 tagline:             'Researcher in Applied Mathematics. Developer.'
-description:         'Professor at UTEC, Uruguay, and former post-doc researcher at VERIMAG group from Univ. Grenoble Alpes, France.'
+description:         'Associate Professor at UTEC, Uruguay, and former post-doc researcher at VERIMAG group from Univ. Grenoble Alpes, France.'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://marcelo-forets.fr/" # the base hostname & protocol for your site, e.g. http://example.com
 
