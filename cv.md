@@ -6,14 +6,14 @@ title: Curriculum Vitae
 
 ## Short version / Versión abreviada
 
-This is a four-pages version with a selected list of academic activities and
+This is curriculum vitae with a selected list of academic activities and
 research work.
 
+- [Curriculum Vitae (en Español)](assets/cv/cv_es.pdf).
 - Curiculum Vitae (in English).
-- [Curriculum Vitae (in Spanish)](assets/cv/cv_es.pdf).
-- Curriculum Vitae (in French).
+- Curriculum Vitae (en Français).
 
-## Long version / Versión CVuy
+## Long version / Versión larga / CVuy
 
 El CVuy es el instrumento de evaluación considerado para definir el ingreso y la
 categorización de un investigador al Sistema Nacional de Investigadores de la
