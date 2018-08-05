@@ -5,11 +5,13 @@ title: "Ongoing"
 
 Preliminary work which has not been yet submitted for publication.
 
-2. *Reach Set Approximation of Polynomial ODEs through Carleman Linearization.* <br> M. F., Goran Frehse, Nikolaos Kekatos, Amaury Pouly, Alexandre Rocca. <br> 2017, work-in-progress.
+1. *Reachability Computations for Formal Verification in Julia.*
+<br> See [JuliaReach-AES](https://github.com/JuliaReach/JuliaReach-AES).
+<br> 2018, work-in-progress.
 
-3. *Reachability of Nonlinear Systems using Support Functions.* <br> M. F., Goran Frehse. <br> 2017, work-in-progress.
-
-4. *Fighting the Wrapping Effect Through Invariance.* <br> M. F., Goran Frehse. <br> 2017, work-in-progress.
+2. *LazySets: a library for convex sets.*
+<br> See [LazySets.jl](https://github.com/JuliaReach/LazySets.jl) in github.
+<br> 2018, work-in-progress.
 
 <div class="posts">
   {% for post in paginator.posts %}
@@ -22,7 +24,7 @@ Preliminary work which has not been yet submitted for publication.
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    <!-- original: {{ post.content }} 
+    <!-- original: {{ post.content }}
     use the trick below to display only a fragment of the post (e.g. first 100 words with truncatewords:100)
     -->
     {{ post.content | strip_html | truncatewords:75 }}  
