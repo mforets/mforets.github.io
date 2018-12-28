@@ -2,7 +2,7 @@
 layout: post
 title:  "Joining Hybrid Systems: Computation and Control (HSCC2018)"
 date: 2018-04-02
-categories: upcoming_event
+categories: past_event
 ---
 
 This year's [21st ACM International Conference on Hybrid Systems: Computation and
