@@ -28,7 +28,7 @@ Currently, I am in charge of the Mechanics and Energy course at [UTEC](https://u
 
 ### <a name="contact_information"></a> Contact information
 
-- Email: `marcelo.forets-irurtia@univ-grenoble-alpes.fr`
+- Email: `mforets` at gmail.cpm
 - VERIMAG: Office: 209 IMAG Building
 - Address: Bat. IMAG, 700 Av. Centrale, 38041, France.
 - Tel: +33 (0)6 47 91 43 65
