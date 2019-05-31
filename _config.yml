@@ -3,7 +3,7 @@ title:               PhD. Eng. Marcelo Forets
 tagline:             'Researcher in Applied Mathematics. Developer.'
 description:         'Associate Professor at UTEC, Uruguay, and former post-doc researcher at VERIMAG group from Univ. Grenoble Alpes, France.'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://marcelo-forets.fr/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://mforets.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Site Configuration
 gems:
@@ -22,7 +22,7 @@ version:             1.0.0
 github_username:  mforets
 author:
   name:              marcelo forets
-  url:               https://marcelo-forets.fr/
+  url:               http://mforets.github.io
   email:             mforets@gmail.com
   contact:
     linkedin:  https://www.linkedin.com/in/marcelo-forets-irurtia-7b8238149/
